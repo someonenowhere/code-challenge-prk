@@ -1,6 +1,6 @@
 import { useEffect, useMemo } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { setPokemons } from './store/pokemonSlice';
+import { setPokemons, removePokemon } from './store/pokemonSlice';
 import { fetchPokemons } from './api';
 import { List } from "ui";
 
@@ -26,7 +26,11 @@ const PokemonList = () => {
         fetchPokemonsLists();
     }, []);
 
-    return <List pokemons={pokemonList} />
+    const deletePokemon = (name: string) => {
+        dispatch(removePokemon(name))
+    }
+
+    return <List pokemons={pokemonList} removePokemon={(name: string) => deletePokemon(name)} />
 }
 
 export default PokemonList;

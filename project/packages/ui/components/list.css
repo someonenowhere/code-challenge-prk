@@ -10,3 +10,9 @@
     border-radius: 10px;
     list-style-type: none;
 }
+
+.list button {
+    float: inline-end;
+    border-radius: 5px;
+    cursor: pointer;
+}

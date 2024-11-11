@@ -1,0 +1,2 @@
+Question 6: How can you verify the action has been dispatched?
+   Answer : This can be acieved Console logging, Use the Redux DevTools, Use a middleware, Use the useDispatch hook with a callback, Use a testing library 

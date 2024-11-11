@@ -504,3 +504,118 @@
 2024-11-11T12:33:12.522954Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\ui\\components\\List.tsx")}
 2024-11-11T12:33:12.522982Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("ui"), path: AnchoredSystemPathBuf("packages\\ui") }: FileChanged { file: AnchoredSystemPathBuf("packages\\ui\\components\\List.tsx") }}))
 2024-11-11T12:33:12.523337Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-11-11T12:35:44.769022Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\1.cookie"), AnchoredSystemPathBuf(".turbo\\cookies")}
+2024-11-11T12:35:44.769083Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }: FileChanged { file: AnchoredSystemPathBuf(".turbo\\cookies") }}))
+2024-11-11T12:35:44.873367Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\1.cookie"), AnchoredSystemPathBuf(".turbo")}
+2024-11-11T12:35:44.873395Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }: FileChanged { file: AnchoredSystemPathBuf(".turbo") }}))
+2024-11-11T12:35:44.988153Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies\\.turbo-cookie")}
+2024-11-11T12:35:44.988218Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }: FileChanged { file: AnchoredSystemPathBuf(".turbo\\cookies\\.turbo-cookie") }}))
+2024-11-11T12:35:45.060929Z  WARN daemon_server: turborepo_lib::commands::daemon: daemon already running
+2024-11-11T12:35:46.965232Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies")}
+2024-11-11T12:35:46.965257Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }: FileChanged { file: AnchoredSystemPathBuf(".turbo\\cookies") }}))
+2024-11-11T12:35:48.378451Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\fcb8c90d427c232a-turbo.log.2024-11-11")}
+2024-11-11T12:35:48.378486Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }: FileChanged { file: AnchoredSystemPathBuf(".turbo\\daemon\\fcb8c90d427c232a-turbo.log.2024-11-11") }}))
+2024-11-11T12:35:48.676963Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\fcb8c90d427c232a-turbo.log.2024-11-11")}
+2024-11-11T12:35:48.677003Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }: FileChanged { file: AnchoredSystemPathBuf(".turbo\\daemon\\fcb8c90d427c232a-turbo.log.2024-11-11") }}))
+2024-11-11T12:35:52.201861Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\vite.config.ts.timestamp-1731328552114-f4e60c1f5dff4.mjs"), AnchoredSystemPathBuf("apps\\app")}
+2024-11-11T12:35:52.201959Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\vite.config.ts.timestamp-1731328552114-f4e60c1f5dff4.mjs") }}))
+2024-11-11T12:35:56.090336Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app"), AnchoredSystemPathBuf("apps\\app\\vite.config.ts.timestamp-1731328552114-f4e60c1f5dff4.mjs")}
+2024-11-11T12:35:56.090370Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\vite.config.ts.timestamp-1731328552114-f4e60c1f5dff4.mjs") }}))
+2024-11-11T12:35:56.092911Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-11-11T12:52:37.235544Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T12:52:37.235593Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T12:53:30.174396Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-11-11T12:55:08.637168Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T12:55:08.637227Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T12:55:14.825089Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T12:55:14.825121Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T12:55:14.827496Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-11-11T12:55:37.844113Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T12:55:37.844217Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T12:55:40.142010Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-11-11T12:56:00.148714Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T12:56:00.148819Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T12:56:04.064296Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T12:56:04.064328Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T12:56:04.066809Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-11-11T12:56:12.145629Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T12:56:12.145656Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T12:56:19.357744Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T12:56:19.360404Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T12:56:23.407968Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T12:56:23.407999Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T12:56:23.410298Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-11-11T12:56:27.045150Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T12:56:27.045205Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T12:56:31.824080Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T12:56:31.824118Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T12:56:31.826416Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-11-11T12:57:00.542861Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T12:57:00.542898Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T12:57:03.217218Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-11-11T12:57:22.641980Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T12:57:22.642008Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T12:57:26.650722Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T12:57:26.650804Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T12:57:26.653354Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-11-11T12:57:29.348428Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T12:57:29.348460Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T12:57:34.372291Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T12:57:34.372327Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T12:57:34.374847Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-11-11T12:58:22.361188Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T12:58:22.361296Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T12:58:29.733432Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T12:58:29.733467Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T12:58:29.736127Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-11-11T13:00:10.356870Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T13:00:10.356913Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T13:00:16.988236Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T13:00:16.988272Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T13:00:16.990936Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-11-11T13:00:30.354732Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T13:00:30.354759Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T13:00:35.303560Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T13:00:35.303589Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T13:00:35.304727Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-11-11T13:03:40.373654Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T13:03:40.373699Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T13:04:41.301452Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-11-11T13:04:41.302730Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\interface\\pokemons.interface.ts")}
+2024-11-11T13:04:41.302756Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\interface\\pokemons.interface.ts") }}))
+2024-11-11T13:04:41.304560Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-11-11T13:04:56.373069Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T13:04:56.373229Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T13:05:01.781289Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T13:05:01.781433Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T13:05:06.497072Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T13:05:06.497106Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T13:05:06.499585Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-11-11T13:05:59.590590Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T13:05:59.590691Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T13:06:03.710787Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T13:06:03.710880Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T13:06:06.528150Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T13:06:06.528186Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T13:06:06.529733Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-11-11T13:06:42.275151Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T13:06:42.275189Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T13:06:44.630350Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T13:06:44.630382Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T13:06:44.632895Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-11-11T13:08:46.285331Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T13:08:46.285445Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T13:08:53.302811Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T13:08:53.302841Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T13:08:56.466360Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-11-11T13:09:06.593253Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T13:09:06.593282Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T13:09:11.844957Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-11-11T13:09:11.845941Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T13:09:11.845956Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T13:09:11.848339Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-11-11T13:09:37.000490Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T13:09:37.000526Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T13:09:40.029668Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx")}
+2024-11-11T13:09:40.029700Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("app"), path: AnchoredSystemPathBuf("apps\\app") }: FileChanged { file: AnchoredSystemPathBuf("apps\\app\\src\\PokemonList.tsx") }}))
+2024-11-11T13:09:40.032285Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun

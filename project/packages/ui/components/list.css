@@ -1,0 +1,12 @@
+.list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.list li {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    list-style-type: none;
+}

@@ -1,18 +1,18 @@
 import React from 'react';
-import './list.css';
+import { Lists, ListItems, ListItemButton } from '../styles';
 
 interface ListProps { pokemons: { name: string }[]; removePokemon: (name: string) => void; }
 
 export const List: React.FC<ListProps> = ({ pokemons, removePokemon }) => {
   //task-2
   return (
-    <div className='list'>
+    <Lists>
       {pokemons.map((pokemon, index) => (
-        <li key={index}>
+        <ListItems key={index}>
           {pokemon.name}
-          <button onClick={() => removePokemon(pokemon.name)}>Remove</button>
-        </li>
+          <ListItemButton onClick={() => removePokemon(pokemon.name)}>Remove</ListItemButton>
+        </ListItems>
       ))}
-    </div>
+    </Lists>
   );
 };
